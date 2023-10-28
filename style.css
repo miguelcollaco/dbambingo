@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    resize: both;
+}
+
+th, td {
+    border: 2px #666 solid;
+    font-size: 24px;
+}
+
+td {
+    height: 20%;
+    position: relative;
+}
+
+td .content {
+    aspect-ratio: 1 / 1 ;
+    table-layout: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    text-shadow: black 1px 0 5px;
+}
+
+.active {
+    background-image: url("x.png");
+    background-size: cover;
+}
